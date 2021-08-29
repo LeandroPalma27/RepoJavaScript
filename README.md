@@ -35,6 +35,7 @@ Solo se abarcan propuestas ya que aun no estan aceptadas y finalizadas.
 - Desktop development (con electron.js)
 - Animaciones (gsap.js)
 - Mobile development con React Native 
+- Entre muchos otros mas...
 
 ### Formas de usar JavaScript
 
