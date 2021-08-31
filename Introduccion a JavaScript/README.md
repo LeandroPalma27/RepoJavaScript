@@ -186,13 +186,20 @@ Entonces, en el script anterior, se sobrentiende que js por su mismo funcionamie
 
 Para empezar, un const debe inicializarse si o si al ser declarado, entonces explicar el dilema del hositing por alcances, pila de ejecucion o contextos, no tiene mucho sentido.
 
-Con let pasa algo similar, al tener un alcance local, no tiene sentido meterse en el dilema de hoisting ya que los let se ocupan de manera logica para algun tipo de funcion, y siempre se declaran al inicio de estas ya que su alcance es local al igual que sus scopes.
+Con let pasa algo similar, al tener un alcance local(scope), no tiene sentido meterse en el dilema de hoisting ya que los let se ocupan de manera logica para algun tipo de funcion, y siempre se declaran al inicio de estas ya que su alcance es local al igual que sus scopes.
 
 #### ¿Por que no olvidar el concepto de hoisting?
 
 Es importante no olvidar el concepto de hoisting para poder tener buenas practicas de programacion en javascript. Al final, los scopes y elevaciones siempre se van a respetar, aunque puedas poner un var para algo importante en la linea 9999 de un script de 10000 lineas de codigo, no es una buena practica.
 
 Si ese var es para la mayoria de funciones, lo pones al inicio. Si es para una funcion en especifico lo pones al inicio o usas un let.
+
+
+VAR USA HOISTING (y se usa para usos globales)
+LET NO USA HOISTING (se usa para usos locales dentro de llaves {let numero;})
+CONST NO USA HOISTING (se usa para declarar una variable que no queremos modificar en el tiempo)
+
+LAS DECLARACIONES DE FUNCIONES TAMBIEN TIENEN HOISTING
 
 #### Conclusion sobre hoisting
 
