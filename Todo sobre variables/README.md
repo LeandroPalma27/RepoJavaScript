@@ -217,21 +217,17 @@ function mostrarNumero2(){
 ### Scopes: teoria de variables (afecta a declaraciones e inicializaciones (tambien a declaraciones de funciones))
 
 IDEAS(ordenar y plasmar):
-EL SCOPE AFECTA A TODOS LO TIPOS DE VARIABLES
-Los bloques de scope pueden ser funciones, condicionales, bucles, etc. 
 
-var (SCOPE es en funcion a donde esta declarado, si es en el contexto global, tiene un alcance global, si es dentro de un bloque, su alcance solo sera en ese bloque, pero lo mejor seria usar un LET)
-let (NO TIENE HOISTING) (let se usa porque nos limita el bloque en el que se contiene, si es entre llaves en una funcion, o globalmente tambien podria ser, pero en ese caso lo mejor seria usar un var.)
+- Todas las variables tienen un scope (alcance)
+- Los scope en bloques pueden ser funciones, condicionales, bucles, etc. 
 
-DE IGUAL MANERA, LAS INICIALIZACIONES TIENE UN SCOPE DE BLOQUE SI ESTAN EN BLOQUE, GLOBAL SI ESTAN INICIALIZADOS DE MANERA GLOBAL.
+#### ¿Que son?
 
-const (SCOPE Y HOISTING)
-
-¿que son?
-¿como funcionan?
-scopes solo es un tema de variables
+El scope en javascript es el alcance que tiene alguna variable o inicializacion. El scope solo es un tema de variables en declaracion e inicialización.
 
 ### Opinion de hoisting sobre varaibles por parte de Lucas Dalto
 
-LAS INICIALIZACIONES NO TIENEN HOISTING.
+Ojo: LAS INICIALIZACIONES NO TIENEN HOISTING.
+
+
 

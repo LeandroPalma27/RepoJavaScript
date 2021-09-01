@@ -207,7 +207,8 @@ Al final es facil entender que las declaraciones se elevan tanto como para var's
 
 Ademas, solo se "elevan" declarariones mas no inicializaciones.
 
-
+#### OJO:
+En una variable se puede inicializar una funcion. Pero el hoisting no esta presente en este caso, no se podria inicializar la funcion antes de declararla como una funcion declaracion.
 
 
 
