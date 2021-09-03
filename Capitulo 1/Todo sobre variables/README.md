@@ -229,5 +229,11 @@ El scope en javascript es el alcance que tiene alguna variable o inicializacion.
 
 Ojo: LAS INICIALIZACIONES NO TIENEN HOISTING.
 
+### Diferencia entre var y let
+
+En si, son casi lo mismo, con la diferencia de que let se usa exclusivamente para definir una varaible con un scope limitado a un bloque, ya sea una funcion, condicional, bucle, etc.
+
+A var tambien le afecta el scope, pero solo se limita a el scope de un bloque de una funcion, para condicionales, bucles, etc, no tiene un scope limitado.
+
 
 

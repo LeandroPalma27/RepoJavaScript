@@ -1,3 +1,0 @@
-## Operadores aritmeticos
-
-Concatenacion??
