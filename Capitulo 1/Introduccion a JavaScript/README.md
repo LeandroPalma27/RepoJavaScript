@@ -210,6 +210,9 @@ Ademas, solo se "elevan" declarariones mas no inicializaciones.
 #### OJO:
 En una variable se puede inicializar una funcion. Pero el hoisting no esta presente en este caso, no se podria inicializar la funcion antes de declararla como una funcion declaracion.
 
+#### OJO2:
+Dentro de un metodo, se puede declarar una funcion (funcion dentro de otra funcion)
+
 
 
 

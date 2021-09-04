@@ -1,5 +1,5 @@
 function mostrarHelados() {
-    let dinero = document.getElementById("inputDinero").value;
+    let dinero = document.getElementById("inputDinero").value; //Con value se obtiene el valor un elemento
     var heladosDisponibles = function (dinero) {
         if (dinero >= 0.6 && dinero < 1) {
             let labelH41 = document.getElementById("dineroYalcance");
@@ -32,16 +32,16 @@ function mostrarHelados() {
 }
 
 function imprimirCompra() {
-    var select = document.getElementById("helados");
-    var valueSelect = select.options[select.selectedIndex].value;
+    var select = document.getElementById("helados"); //Obtenemos el select
+    var valueSelect = select.options[select.selectedIndex].value; //obtenemos las opciones del select (va cambiando en funcion de donde se marque el combo)
     let dinero = document.getElementById("inputDinero").value;
     var compraRe = function (dinero, valueSelect) {
-        let money = dinero;
+        let money = dinero; //Se almacena en nuevos datos para no modificar los parametros de la funcion (programacion funcional)
         let value = valueSelect;
         let labelH41 = document.getElementById("dineroYalcance");
         if (value == "Helado 1") {
             money = money - 0.6;
-            if (money > 0) {
+            if (money > 0) { //Para comprobar que haya vuelto 
                 labelH41.innerHTML = "Compro helado 1, su vuelto es de " + money;
             } else {
                 labelH41.innerHTML = "Compro helado 1";
@@ -100,5 +100,4 @@ function imprimirCompra() {
         compraRe(dinero, valueSelect);
     }
 }
-
 

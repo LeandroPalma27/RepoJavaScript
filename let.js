@@ -1,9 +1,9 @@
-function nameG() {
-    if (true) {
-        var numero = 10;
-    }
+met();
+function met(){
+    var numero = 5;
     console.log(numero);
 }
 
-nameG();
+
+
 

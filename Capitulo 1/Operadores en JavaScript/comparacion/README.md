@@ -21,10 +21,10 @@ console.log(numero !== texto);
 Si no usamos el estrictamente diferente, daria false, porque 20 y 20 (en cadena) serian relativamente iguales.
 
 - === estrictamente iguales (pasa lo mismo que con los estrictamente diferentes)
-- > 
-- <
-- >= 
-- <=
+- **>** 
+- **<**
+- **>=** 
+- **<=**
 
 ### Relacion con condicionales 
 
