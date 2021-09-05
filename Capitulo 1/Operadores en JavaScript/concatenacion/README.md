@@ -39,3 +39,5 @@ Ejm:
 ```js
 var cadena = 'Hola amigos como estan, yo soy "Leandro"';
 ```
+
+Tambien se puede hacer un escape de comillas usando **\"Ejemplo de cadena\"**.

@@ -61,7 +61,7 @@ Aclarado esto, pasare a explicar variables y sus tipos, a profundidad en el leng
 
 En javascript podemos encontrar los siguientes tipos de datos primitivos:
 
-- Cadenas de texto 
+- Cadenas de texto (son inmutables, no pueden alterarse, los caracteres no pero las asignaciones si)
 - Numericos
 - Booleanos
 - Symbol (mas adelante se explica)

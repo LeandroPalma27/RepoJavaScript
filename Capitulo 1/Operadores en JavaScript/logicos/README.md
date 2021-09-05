@@ -2,7 +2,7 @@
 
 Son los operadores AND (&&), OR (||) y NOT(!).
 
-Para que and devuelva true, los dos valores comparados deben ser true. 
+Para que AND devuelva true, los dos valores comparados deben ser true. 
 
 Para que OR devuelva true, solo un valor debe ser true. 
 
