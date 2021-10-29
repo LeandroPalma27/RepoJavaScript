@@ -199,8 +199,6 @@ VAR USA HOISTING (y se usa para usos globales)
 LET NO USA HOISTING (se usa para usos locales dentro de llaves {let numero;})
 CONST NO USA HOISTING (se usa para declarar una variable que no queremos modificar en el tiempo)
 
-LAS DECLARACIONES DE FUNCIONES TAMBIEN TIENEN HOISTING
-
 #### Conclusion sobre hoisting
 
 Al final es facil entender que las declaraciones se elevan tanto como para var's y funciones, pero fisicamente no es asi, lo que sucede que en el contexto global las declaraciones siempre se tomaran al inicio para poder gestionar un uso de memoria eficiente. 
@@ -211,7 +209,7 @@ Ademas, solo se "elevan" declarariones mas no inicializaciones.
 En una variable se puede inicializar una funcion. Pero el hoisting no esta presente en este caso, no se podria inicializar la funcion antes de declararla como una funcion declaracion.
 
 #### OJO2:
-Dentro de un metodo, se puede declarar una funcion (funcion dentro de otra funcion)
+Dentro de un metodo, se puede declarar una funcion (funcion dentro de un metodo)
 
 
 
