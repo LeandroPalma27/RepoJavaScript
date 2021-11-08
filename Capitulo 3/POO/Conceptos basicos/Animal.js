@@ -13,4 +13,19 @@ class Animal {
         this.color = color;
         this.info = `El nombre de este animal es ${this.nombre}, tiene ${this.edad} años de edad y su raza es ${this.raza}.`
     }
+    //<====================De esta manera se crean metodos=====================>
+
+    // NO HACE FALTA hacer referencia al this, este solo se usa para el constructor(para referirnos al objeto que 
+    // instancia la clase):
+    mostrarInformacion() {
+        return this.info;
+    }
+    afirmarPerro(raza) {
+        let razaEspecie = raza;
+        if(razaEspecie == 'perro'){
+            return 'Jaja tienes un perrito.'
+        } else {
+            return 'No tienes un perrito :c';
+        }
+    }
 }

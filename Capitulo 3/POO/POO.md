@@ -8,8 +8,9 @@ La programacion orientada a objetos es uan forma de programar donde se reutiliza
 
 Los conceptos basicos de POO serian:
 
-- Abstraccion
-- Encapsulacion
-- Herencia
+- Abstraccion : Refiere a que buscamos como obtener un resultado y no en el como, dejando de forma abstracta esa parte. Tambien podria ser que algun metodo abstraiga cosas especificas como la velocidad de alguna funcionalidad como moverse (puede moverse lento, rapido, mediano, etc), si implementamos una funcionalidad que se llame moverse, abstraemos todas estas subcaracteristicas de esta funcionalidad.
+
+- Encapsulacion: Cuando instanciamos una clase a traves de un objeto, encapsulamos todas las cosas que ofrece la clase dentro del objeto. De manera evitamos que los usuarios de alguna manera ocurrente puedan acceder a algunas funcionalidades de otras de otras porciones de codigo.
+
 - Polimorfismo
-- Etc
+pendiente invesigar polimorfismo y terminar video de dalto
