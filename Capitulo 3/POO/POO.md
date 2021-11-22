@@ -14,3 +14,7 @@ Los conceptos basicos de POO serian:
 
 - Polimorfismo
 pendiente invesigar polimorfismo y terminar video de dalto
+
+## IMPORTANTE!!!
+
+Un objeto de declara siempre con const.

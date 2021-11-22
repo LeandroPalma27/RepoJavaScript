@@ -14,27 +14,11 @@ Ejm:
 
 ```js
 // <============== Primer ejemplo ===============>
-// No recibe ningun input
-function limpiarInput() {
-  let input = document.createElement("input");
-  if (!(input.value == null)) {
-    input.value = null;
-  }
+// La entrada son dos valores: a y b
+function disparador(a, b) {
+  return a + b; 
 }
-// Su output es el mismo, nada.
-
-// <============== Segundo ejemplo ===============>
-// La entrada es un valor bool
-function disparador(data) {
-  let gatillo = data;
-  if (gatillo == true) {
-    descontarMunicion();
-    return true;
-  } else {
-      return false;
-  }
-}
-// Y la salida tambien es un valor bool.
+// No se requieren cosas externas a la funcion
 ```
 
 - ESTADO COMPARTIDO: El estado compartido es cuando el ambito de alguna declaracion de variables o lo que sea se comparte entre todo el codigo, con la finalidad de poder usarlo para otras funciones, clases, etc.
