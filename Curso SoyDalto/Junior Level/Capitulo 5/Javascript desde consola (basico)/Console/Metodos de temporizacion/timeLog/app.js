@@ -1,0 +1,1 @@
+// Este metodo permite acceder al tiempo transcurrido, sin detener el temporizador.

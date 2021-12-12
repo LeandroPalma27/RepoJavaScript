@@ -1,0 +1,1 @@
+// Finaliza el temporizador inicializado, mostrando el tiempo total que se conto.

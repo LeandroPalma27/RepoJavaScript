@@ -1,0 +1,2 @@
+# Cosas importantes del curso
+

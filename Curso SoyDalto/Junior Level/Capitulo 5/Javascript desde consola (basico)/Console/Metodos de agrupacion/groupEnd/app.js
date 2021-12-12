@@ -1,0 +1,1 @@
+// Este metodo sirve para poder terminar un grupo.

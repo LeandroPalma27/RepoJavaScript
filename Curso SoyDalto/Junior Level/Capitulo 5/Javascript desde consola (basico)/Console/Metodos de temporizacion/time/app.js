@@ -1,0 +1,1 @@
+// Inicializa un temporizador en la consola.

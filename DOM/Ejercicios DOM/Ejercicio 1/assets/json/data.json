@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "nombre": "Leandro",
+        "dni": "77276954",
+        "apellidos": 
+        {
+            "paterno": "Palma",
+            "materno": "Alvarado"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Gustavo",
+        "dni": "77276951",
+        "apellidos": 
+        {
+            "paterno": "Palma",
+            "materno": "Alvarado"
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Koeman",
+        "dni": "77276952",
+        "apellidos": 
+        {
+            "paterno": "Cumman",
+            "materno": "Semoja"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Laporta",
+        "dni": "77276953",
+        "apellidos": 
+        {
+            "paterno": "Estruch",
+            "materno": "Nose"
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Messi",
+        "dni": "77276955",
+        "apellidos": 
+        {
+            "paterno": "Lionel",
+            "materno": "Cuccitini"
+        } 
+    }
+]
