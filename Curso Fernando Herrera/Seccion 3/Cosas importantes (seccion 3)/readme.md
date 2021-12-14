@@ -1,2 +1,37 @@
-# Cosas importantes del curso
+# Cosas importantes del curso (seccion 3)
 
+1. Javascript es un lenguaje de tipado debil (no indicamos que tipo de dato almacena una variable).
+
+2. Javascript lo supone a traves de nuestras inicializaciones. 
+
+3. Un dato inmutable refiere a que no puede modificarse, como mucho en caso de hacerlo se crean nuevas variables con los resultados o se vuelve a inicializar esa variable.
+
+4. Los datos primitivos son datos inmutables y que a su vez no son objetos.
+
+5. Var permite hacer doble inicializacion (otro motivo por el cual no usar var), o por lo menos lo permitia en su momento.
+
+6. Typeof es un operador interno de JavaScript.
+
+7. En javascript todo son objetos (arrays, objetos, json, funciones, etc), excepto los datos primitivos.
+
+8. En javascript se maneja el camelCase: miFuncionSeDeclaraAsi().
+
+9. Las variables con let o const no se sobreescriben en el objeto window.
+
+10. En javascript es una buena practica crear archivos con un guion como separador en caso de tener varias palabras: mi-archivo-juego.js
+
+11. No es buena practica colocar letras mayusculas, caracteres especiales o espacios en los nombres de los archivos.
+
+12. No es buena practica declarar variables con caracteres especiales o con la ñ.
+
+13. Para crear variables con numeros, es buena practica usar guion bajo para separar decimales.
+
+14. Para variables lowerCamelCase, para clases siempre UpperCamelCase.
+
+15. Los arrays en js tienen posibilidad de acceder a posiciones infinitas pero no todas estan ocupadas (eso dependera del desarrollador).
+
+16. En los arreglos se pueden almacenar cualquier cosa: Operaciones matematicas, funciones, arays, etc.
+
+17. OJO, forEach no retorna nada.
+
+18. En javascript, los calculos que se necesiten hacer al inicio para poder dar sentido a ciertas acciones, se hacen.

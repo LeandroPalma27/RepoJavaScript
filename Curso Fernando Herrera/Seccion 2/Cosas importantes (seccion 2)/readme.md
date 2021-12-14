@@ -4,7 +4,7 @@
 
 2. Con node, podemos ejecutar javascript desde el terminal o git bash.
 
-3. Las variables creadas en los archivos js, estan alojadas en el objeto global window.
+3. Las variables creadas en los archivos js, estan alojadas en el objeto global window (solo las de tipo var).
 
 4. Que version de JS usar? Lo mejor es usar de ECS6 en adelante, ya que con la ayuda de polyfill podemos hacer que funcionalidades de JS moderno puedan ser ejecutadas en versiones viejas de js.
 
@@ -26,4 +26,5 @@
 
 13. El objeto window global posee un monton de metodos y propiedades interesantes de aprender.
 
-14. En el objeto window se sobreescriben las variables declaradas con var.
+14. En el objeto window se sobreescriben las variables declaradas con var (solo var).
+

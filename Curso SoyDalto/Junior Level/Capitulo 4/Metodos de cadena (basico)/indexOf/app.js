@@ -1,4 +1,4 @@
-let cadena = "Soy dalto";
+let cadena = "Soy dalto xd";
 console.log(cadena.indexOf('xd'));
 
 
