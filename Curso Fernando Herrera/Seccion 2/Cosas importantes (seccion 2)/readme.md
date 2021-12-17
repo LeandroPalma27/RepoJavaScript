@@ -28,3 +28,4 @@
 
 14. En el objeto window se sobreescriben las variables declaradas con var (solo var).
 
+15. No es buena practica usar var ya que sobreescribe y tambien permite ser accedida sin antes inicializarla.

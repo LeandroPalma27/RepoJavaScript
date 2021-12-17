@@ -35,3 +35,25 @@
 17. OJO, forEach no retorna nada.
 
 18. En javascript, los calculos que se necesiten hacer al inicio para poder dar sentido a ciertas acciones, se hacen.
+
+19. Si quiero obtener la posicion de algun elemento en especifico, debo usar indexOf(elemento);
+
+20. Si deseo quitar algo de un array para guardarlo en otro, puedo usar splice();
+
+21. Javascript tiene principalmente dos tipos de datos, los primitivos y los objetos.
+
+22. Usar los entries en los objetos puede ser de gran ayuda.
+
+23. Declarar funciones con 'function' ya no es tan buena practica.
+
+24. Todas las funciones tienen un return, asi sea undefined.
+
+25. Todas las funciones que usen la palabra reservada 'function' son funciones clasicas.
+
+26. Las funciones clasicas tienen una cosa exclusiva llamada arguments.
+
+27. Es buena practica usar const para declara objetos.
+
+28. La desestructuracion de objetos y arreglos son protips que pueden servir de mucho en react.
+
+29. Tambien el buen uso del operador spread.
