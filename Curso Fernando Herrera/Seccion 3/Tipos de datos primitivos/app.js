@@ -18,6 +18,8 @@ let xd = '0012T-354K2-K937J';
 
 if (xd == simbolo) {
     console.log('si')    
+} else {
+    console.log('no')
 }
 
 // NINGUN DATO CON EL MISMO VALOR QUE UN SYMBOL PODRA SER COMPARADO CON ESE SYMBOL YA QUE ES UNICO.

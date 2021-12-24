@@ -1,5 +1,5 @@
-const clasica = (...args) => (args);
-
+const clasica = (...args) => args;
+console.log(clasica({nombre: 'Tobey'}, {nombre: 'Andrew'}, {nombre: 'Tom'}));
 
 // Destructuracion de arreglos:
 let [primer_spiderman, segundo_spiderman, tercer_spiderman] = clasica({nombre: 'Tobey'}, {nombre: 'Andrew'}, {nombre: 'Tom'}); 

@@ -20,6 +20,7 @@ let resultado = [...arra, ...arraa ];
 
 console.log(resultado);
 
+// Ojo splice:
 let pedacito = arra.splice(2, 1);
 
 console.log(arra);

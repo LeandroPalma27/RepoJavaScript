@@ -14,7 +14,7 @@
 
 7. En javascript todo son objetos (arrays, objetos, json, funciones, etc), excepto los datos primitivos.
 
-8. En javascript se maneja el camelCase: miFuncionSeDeclaraAsi().
+8. En javascript se maneja el camelCase.
 
 9. Las variables con let o const no se sobreescriben en el objeto window.
 
@@ -46,8 +46,6 @@
 
 23. Declarar funciones con 'function' ya no es tan buena practica.
 
-24. Todas las funciones tienen un return, asi sea undefined.
-
 25. Todas las funciones que usen la palabra reservada 'function' son funciones clasicas.
 
 26. Las funciones clasicas tienen una cosa exclusiva llamada arguments.
@@ -57,3 +55,5 @@
 28. La desestructuracion de objetos y arreglos son protips que pueden servir de mucho en react.
 
 29. Tambien el buen uso del operador spread.
+
+30. No olvidar el object freeze, getOwnPropertyNames y el values para Object.

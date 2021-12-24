@@ -11,3 +11,9 @@
 5. El operador spread mezcla cosas del mismo tipo.
 
 6. AND (2 true), OR (1 true o 2 true), XOR (solamente 1 true).
+
+7. La entrada de un switch maneja el '==='.
+
+8. undefined y null podrian considerarse como falso en ciertas cuestiones.
+
+9. No olvidar al continue, break y label en los bucles.
