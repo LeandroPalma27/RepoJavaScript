@@ -6,4 +6,4 @@ const funcion = (data) => {
     }
 }
 
-funcion({name: 'Maria'}); // TODO: PORQUEEEE??????? Desestructuracion? porque son objetos?
+funcion({name: 'Maria'});

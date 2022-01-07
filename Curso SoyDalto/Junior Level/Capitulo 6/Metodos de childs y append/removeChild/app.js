@@ -1,7 +1,11 @@
-let titulo = document.getElementById('titulo')
+const caja = document.getElementById('overview');
+let titulo = document.getElementById('titulo');
 
-titulo.parentNode.removeChild(titulo)
-console.log(titulo.parentNode)
+console.log(caja.attributes.class);
+
+caja.removeChild(titulo);
+
+
 
 /* 
 El metodo removeChild permite eliminar un hijo en especifico de algun padre. Este puede quedarse en memo

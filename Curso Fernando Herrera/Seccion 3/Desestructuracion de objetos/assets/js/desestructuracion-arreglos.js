@@ -1,3 +1,3 @@
-const [spiderman_uno, spiderman_dos, spiderman_tres] = ['Tobey', 'Andrew', 'Tom'];
+const [[t, o, b, e, y], spiderman_dos, spiderman_tres] = ['Tobey', 'Andrew', 'Tom'];
 
-console.log({spiderman_uno});
+console.log([t, o, b, e, y], [spiderman_dos], spiderman_tres);

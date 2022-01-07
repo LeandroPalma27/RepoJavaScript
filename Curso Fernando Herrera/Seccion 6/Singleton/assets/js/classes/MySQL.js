@@ -7,7 +7,7 @@ class MySQL {
 
     constructor(port = null, username = null, password = null) {
 
-        if (!!MySQL.#instance) {
+        if (!!MySQL.#instance) { // Si esta undefined se niega, dando true, y al volver a negarse se convierte en false (lo cual tiene sentido ya que se generaria una instancia).
             return MySQL.#instance;
         }
 
@@ -29,3 +29,9 @@ const mySql2 = new MySQL(3306, 'choclito', '1234');
 console.log({mySql});
 console.log(mySql2.username); // Esto dara admin ya que al tener singleton, siempre se retornara la
                               // la primera instancia realizada.
+
+if (!!'instancia') { // Si fuera undefined llegaria al else
+    return console.log('instancia');
+} else {
+    return console.log('nueva instancia')
+}

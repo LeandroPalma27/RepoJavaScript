@@ -4,7 +4,7 @@
 
 2. En un objeto, no hace falta asignar un nombre a la propiedad que determina una funcion.
 
-3. Para crear clases, debemos usar upperCamelCase.
+3. Para crear clases, debemos usar UpperCamelCase.
 
 4. Las clases por defecto implementan el 'use strict'.
 
@@ -12,7 +12,7 @@
 
 6. El prototype (__proto__) es como el adn de alguna instancia en JS.
 
-7. Debemos tener en cuenta que las propiedades privadas en JS por el momento no estan aceptadas al 100%, lo cual podria ser un problema ya que podriamos acceder a las propiedes desde cualquier lado del programa.
+7. Debemos tener en cuenta que las propiedades privadas en JS por el momento no estan aceptadas al 100%, lo cual podria ser un problema ya que podriamos acceder a las propiedades desde cualquier lado del programa.
 
 8. Tambien podemos crear nuevas propiedades si deseamos.
 

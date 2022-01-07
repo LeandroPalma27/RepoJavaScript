@@ -17,9 +17,9 @@ miConsoleLog('Hola');
 // Una funcion anonima seria:
 
 let objeto = {
-    miFuncionAnonima: function () {
-        console.log('Hola mundo')
-    }
+    miFuncionAnonima: (() => {
+        return console.log('hola mundo')
+    })()
 }
 
-document.write(objeto.miFuncionAnonima);
+console.log(objeto.miFuncionAnonima);

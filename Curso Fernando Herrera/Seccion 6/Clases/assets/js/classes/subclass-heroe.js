@@ -13,12 +13,12 @@ class Heroe extends PersonaNatural {
     }
 
     // Polimorfismo:
-    presentacion() {
+    presentacion() { // Metodo de hijo.
 
         console.log(`Me llamo ${this.nombre} ${this.apellidos}, mi saga es la de ${this.saga}.`);
 
         // Si quiero usar el metodo de la clase padre:
-        super.presentacion();
+        super.presentacion(); // Metodo de padre.
 
     }
 

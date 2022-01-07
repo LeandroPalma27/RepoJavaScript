@@ -57,3 +57,5 @@
 29. Tambien el buen uso del operador spread.
 
 30. No olvidar el object freeze, getOwnPropertyNames y el values para Object.
+
+31. Siempre consultar sin existe algun metodo que solucione lo que estamos buscando.
