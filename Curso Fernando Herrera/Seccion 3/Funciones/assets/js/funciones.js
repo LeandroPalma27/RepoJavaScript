@@ -18,7 +18,7 @@ miConsoleLog('Hola');
 
 let objeto = {
     miFuncionAnonima: (() => {
-        return console.log('hola mundo')
+        return console.log('hola mundo v2')
     })()
 }
 

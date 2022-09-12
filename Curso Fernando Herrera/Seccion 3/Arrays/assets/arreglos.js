@@ -1,8 +1,8 @@
 const arreglo = new Array(10); // Forma clasica de crear un arreglo con una cantidad determinada de
                                // posiciones.
-console.log(arreglo);
+console.log(arreglo.length);
 
-for (let i = 0; i < 11; i++) {
+for (let i = 0; i <= 10; i++) {
     arreglo.push('xd');
 }
 
@@ -10,6 +10,12 @@ console.log(arreglo); // Lo que se muestra es que ese arreglo tiene un espacio d
                       // elementos que se han agregado con el push dentro del for.
 
 arreglo[0] = 'hola'; // De esta manera podriamos ocupar los espacios reservados.
+
+arreglo[1] = "skye"
+
+for (let index = 2; index <= 9; index++) {
+    arreglo[index] = "Chamber"
+}
 
 console.log(arreglo);
 

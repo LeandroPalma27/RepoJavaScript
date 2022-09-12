@@ -9,10 +9,14 @@ console.log({a, b});
 // Paso por referencia:
 
 const A = {valor: 10}; // Se asigna este objeto.
-const B = {A}; // Se pasa por referencia al mismo objeto, a la variable a.
+const B = A; // Se pasa por referencia al mismo objeto, a la variable a.
+
+const cambioDeValor = (obj) => obj.valor = "Hola"
 
 B.valor = 30; // Al modificar a la referencia del objeto(al mismo objeto a), se modifica no solo
              // b, tambien se modifica a.
+
+cambioDeValor(B);
 console.log({A, B});
 
 

@@ -32,3 +32,8 @@ let elementoQuitado = nuevoXd.pop();
 
 console.log('De: ', nuevoXd, ', se quito: ', elementoQuitado);
 console.log({nuevoXd, elementoQuitado});
+
+const personajes = ["Sova", "Chamber", "Reyna"];
+const personajes2 = personajes.concat({0: [personajes]})
+console.log(personajes2)
+console.log(personajes)
