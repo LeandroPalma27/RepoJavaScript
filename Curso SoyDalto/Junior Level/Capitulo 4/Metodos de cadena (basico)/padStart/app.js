@@ -1,5 +1,5 @@
 let cadena = "dalto";
-console.log(cadena.padStart(9, "Soy "));
+console.log(cadena.padStart(7, "Soy "));
 
 //Explicacion: Primero que nada debemos aclarar que no es un metodo oficial reconocido por ECMA.
 //             Este metodo lo que hace es rellenar al principio de una cadena alguna otra cadena que le

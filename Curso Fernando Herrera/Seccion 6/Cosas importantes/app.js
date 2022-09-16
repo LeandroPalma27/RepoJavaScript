@@ -4,6 +4,9 @@ const xd = {
     },
     hola: (()=>{
         console.log('hola')
+    })(),
+    xd: (() => {
+
     })()
 }
 

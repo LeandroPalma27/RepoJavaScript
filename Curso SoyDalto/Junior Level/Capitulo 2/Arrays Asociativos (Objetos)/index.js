@@ -1,4 +1,4 @@
-var objetoRandom = new Object();
+var objetoRandom = {};
 
 objetoRandom.nombre = "LeandroPC";
 objetoRandom.procesador =  "Ryzen 7 4600x";
@@ -9,7 +9,7 @@ let nombre = objetoRandom["nombre"];
 let procesador = objetoRandom["procesador"];
 let ram = objetoRandom["ram"];
 
-console.log(nombre);
+console.log(objetoRandom["procesador"]);
 
 // var html = `El nombre de la PC es: <b>${nombre}</b><br>
 // El procesador de la PC es: <b>${procesador}</b><br>

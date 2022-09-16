@@ -59,3 +59,15 @@ class PersonaNatural {
     }
 
 }
+
+const persona1 = new PersonaNatural();
+const persona2 = new PersonaNatural();
+const persona3 = new PersonaNatural();
+
+persona1.setNombre ="Leandro";
+persona1.setApellidos = ("Palma Alvarado");
+persona1.setEdad = (20);
+
+console.log(persona1.getEdad)
+
+console.log(PersonaNatural.getContadorInstancias)

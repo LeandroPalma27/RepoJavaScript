@@ -12,3 +12,5 @@ console.log(universitario);
 console.log(universitario.getComida);
 console.log(PersonaNatural.getContadorInstancias);
 console.log(PersonaNatural.saludar()); */
+
+

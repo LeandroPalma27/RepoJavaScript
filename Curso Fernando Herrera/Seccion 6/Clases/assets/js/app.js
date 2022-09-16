@@ -1,8 +1,11 @@
-let dibujo = '';
 
-for (let i = 0; i < 1; i++) {
-    for (let j = 0; j < 20; j++) {
-        dibujo += '*';
-        console.log(dibujo);
+
+const printPyramid = (pisos) => {
+    for (let i = 1; i < pisos; i++) {
+        strLateral = ' '.repeat(pisos-i)
+        strCentral = "*".repeat(i*2 - 1)
+        console.log(strLateral+strCentral+strLateral)
     }
 }
+
+printPyramid(10)

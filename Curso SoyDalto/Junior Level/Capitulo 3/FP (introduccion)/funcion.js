@@ -7,3 +7,14 @@ const obtenerPrimerElementoArray = (arreglo) => {
 
 console.log(obtenerPrimerElementoArray(arreglo));
 console.log(arreglo);
+
+var saludo = 'hola';
+
+console.log(saludo);
+function saludar(data) {
+    data = 'que fue';
+    console.log(data);
+}
+
+saludar(saludo);
+console.log(saludo);

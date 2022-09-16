@@ -3,7 +3,7 @@ class Heroe extends PersonaNatural {
     saga;
     
     // Constructor de una clase hija:
-    constructor(nombre, apellidos, edad, saga) { // De todas maneras lleva los parametros requeridos por
+    constructor(nombre = null, apellidos = null, edad = null, saga = null) { // De todas maneras lleva los parametros requeridos por
                                                 // la clase hija.
 
         // Antes de usar la palabra reservada this, debe ir el super (si es clase hija):

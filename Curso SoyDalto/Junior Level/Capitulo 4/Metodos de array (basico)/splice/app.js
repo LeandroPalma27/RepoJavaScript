@@ -1,6 +1,13 @@
 let meses = ['January', 'February', 'March', 'April', 'May', 'June'];
-meses.splice(6, 0, 'July');
+const res = meses.splice(6, 0, 'July');
 console.log(meses);
+console.log(res)
+
+const diasSemana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
+
+const res2 = diasSemana.splice(2, 3, ...['Hola', 'xd', 'Valorant'])
+
+console.log({...diasSemana, res2})
 
 // Este metodo permite empalmar un elemento a un arreglo, ya sea añadiendo un nuevo elemento o modifi_
 // ficando uno ya existente en el array.

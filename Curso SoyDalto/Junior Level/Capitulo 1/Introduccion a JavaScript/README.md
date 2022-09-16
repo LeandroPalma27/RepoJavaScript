@@ -15,10 +15,8 @@ JavaScript es un lenguaje de programacion mutliparadigma, interpretado por los n
 ### Caracteristicas de JavaScript:
 
 - Es un lenguaje orientado a objetos
-- Funciona a traves del paradigma imperativo (uno por uno de manera sincrona)
 - Es case sensitive (es sensible a las letras mayusculas y minusculas, entiende de diferentes maneras lo minusculo y lo mayusculo)
 - Es de tipado debil (una variable puede ser interpretada como un int y luego puede ser un string tranquilamente.)
-- Es un lenguaje dinamico (se relaciona a lo anterior) porque las variables se adaptan a sus valores.
 - Posee un estandar en codificacion, que esta sustentado por los desarroladores de ECMA, con el fin de mantener una misma direccion en el tipo y estandar de codificacion en Javascript (ECMAscript), actualmente existe la version 10, pero la mas usada es ES6 debido a que es la version que soportan todos los navegadores de hoy en dia. 
 
 #### ES. NEXT

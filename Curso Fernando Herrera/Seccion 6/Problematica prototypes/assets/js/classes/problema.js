@@ -48,3 +48,5 @@ console.log(cristiano.imprimir());
 
 // Pero ahora surge otro problema, y es que si no documentamos que esa funcion sirve para hacer instancia
 // de algo, puede ser algo confuso para otros desarrolladores.
+
+console.log(cristiano)

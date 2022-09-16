@@ -34,7 +34,11 @@ for (persona of personas) {
     modelos.push(persona.tipo);
 }
 
-const modelosFiltrados = modelos.filter((elemento, indice) => {
+// Funcion de filtrado de datos repetidos de un array:
+const modelosFiltrados = modelos.filter((elemento, indice, array) => {
+    console.log(array)
+    // Al momento de evaluar si el indice del elemento en cuestion coincide con el indice actual, se puede generar que el elemento ya exista antes, 
+    // por lo tanto la posicion leida sera la mas cercana. Asi que por ese elemento no retornara(SERA FILTRADO)
     if (modelos.indexOf(elemento) == indice) return elemento;
 });
 
