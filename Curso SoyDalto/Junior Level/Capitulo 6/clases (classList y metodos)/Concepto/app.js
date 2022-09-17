@@ -25,3 +25,4 @@ boton.addEventListener('click', () => {
     /* ¿Para que sirve toggle?
     toggle() nos permite poder palanquear entre dos de un HTMLElement por otra clase CSS. */
 })
+

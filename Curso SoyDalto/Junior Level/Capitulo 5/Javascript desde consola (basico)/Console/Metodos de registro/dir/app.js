@@ -26,3 +26,5 @@ console.log(xd);
 
 let resultado = JSON.parse(xd);
 console.log(resultado);
+
+console.dir(xd)
